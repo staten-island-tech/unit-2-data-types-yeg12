@@ -1,12 +1,25 @@
-def discount(isMember, age, isResident):
-if  age <=(18):
-    print(discount)
-if age <=( 65):
-    print(discount)
-if isResident ==(True):
-    print(discount)
-if isMember ==(True):
-    print(discount)
+# x = 3
+# y = float(3)
+# print(x,y) 
 
 
 
+# values = [1,2.23,5,7,2,30,15]
+# print(values)
+# for i in values:
+#     print(i)
+
+# print(values[0])
+# print(values[7])
+
+# "test"
+# ["t","e","s","t"]
+
+# x = "this is a thing"
+# y= x.split( )
+# z = y[0]
+# print(y)
+# print(z)
+def discount (isMember, isResident; age):
+    if isMember == True:
+        print( discount)
