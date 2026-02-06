@@ -49,8 +49,16 @@
 # else:
 #     print('cold')
 
-sentence = input("put a setnetnece")
-list =sentence.split( )
-def wordcount():
-    print(len(list))
-wordcount()
+# sentence = input("put a setnetnece")
+# list =sentence.split( )
+# def wordcount():
+#     print(len(list))
+# wordcount()
+
+number = int(input("Put a number in here you filty monkey"))
+def even():
+    if number % 2  == 0 :
+        print("even")
+    else:
+        print("MONKEY")
+even()
