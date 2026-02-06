@@ -55,10 +55,12 @@
 #     print(len(list))
 # wordcount()
 
-number = int(input("Put a number in here you filty monkey"))
-def even():
-    if number % 2  == 0 :
-        print("even")
-    else:
-        print("MONKEY")
-even()
+# number = int(input("Put a number in here you filty monkey"))
+# def even():
+#     if number % 2  == 0 :
+#         print("even")
+#     else:
+#         print("MONKEY")
+# even()
+
+def tip (good,monkey)
