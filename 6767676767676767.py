@@ -63,4 +63,12 @@
 #         print("MONKEY")
 # even()
 
-def tip (good,monkey)
+# Sentence = input("how good is the service")
+# def tip():
+#     def bad():
+#         if Sentence == ("bad"):
+#             print("tip is now 0% go to my basement")
+        
+def bill ():
+    number = int(input("put the bill"))
+        
