@@ -70,5 +70,20 @@
 #             print("tip is now 0% go to my basement")
         
 def bill ():
-    number = int(input("put the bill"))
-        
+    number = float(input("put the bill"))
+    sentence = int(input("bad-1 okay-2 good-3 great-4"))
+    if input == 1:
+        result = number*0
+        print(result)
+    elif input == 2:
+        result = number*.15
+        print(result)
+    elif input == 3:
+        result = number*.20
+        print(result)
+    elif input == 4:
+        result = number*.25
+        print(result)
+    else:
+        print("that isn't a option moron, it 1-4")
+bill()
