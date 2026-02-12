@@ -69,24 +69,24 @@
 #         if Sentence == ("bad"):
 #             print("tip is now 0% go to my basement")
         
-def bill ():
-    number = float(input("put the bill "))
-    sentence = input("bad okay good great ")
-    if sentence == "bad":
-        result = number*0
-        print(result)
-    elif sentence == "okay":
-        result = number*.15
-        print(result)
-    elif sentence == "good":
-        result = number*.20
-        print(result)
-    elif sentence == "great":
-        result = number*.25
-        print(result)
-    else:
-        print("that isn't a option moron, it 1-4 ")
-bill()
+# def bill ():
+#     number = float(input("put the bill "))
+#     sentence = input("bad okay good great ")
+#     if sentence == "bad":
+#         result = number*0
+#         print(result)
+#     elif sentence == "okay":
+#         result = number*.15
+#         print(result)
+#     elif sentence == "good":
+#         result = number*.20
+#         print(result)
+#     elif sentence == "great":
+#         result = number*.25
+#         print(result)
+#     else:
+#         print("that isn't a option moron")
+# bill()
 
 
 
@@ -94,6 +94,9 @@ bill()
 
 
 
-
-# y = float(input("put in a number"))
-# x = float(input("put in another number")) 
+y = 1
+x = int(input("put in a number"))
+for i in range (y,x+1):
+    if x%i == 0:
+        print (x)
+y+1
