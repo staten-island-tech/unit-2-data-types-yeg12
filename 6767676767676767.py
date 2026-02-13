@@ -91,12 +91,30 @@
 
 
 
+# x = 1
+# num = int(input("put in a number"))
+# for i in (range(x,num+1)):
+#     if (num%i == 0):
+#         print(x)
+
+
+#     x=x+1
 
 
 
-y = 1
-x = int(input("put in a number"))
-for i in range (y,x+1):
-    if x%i == 0:
-        print (x)
-y+1
+
+num = int(input("put in a number"))
+num1 = int(input("put in another number"))
+def gcf_find ():
+    GCF = 0
+    for i in (range(2,num+1)):
+        if( num% i == 0, num1% i ==0):
+            GCF = 1
+            print()
+
+
+      
+
+
+
+
