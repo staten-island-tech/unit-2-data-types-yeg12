@@ -105,12 +105,14 @@
 
 num = int(input("put in a number"))
 num1 = int(input("put in another number"))
-def gcf_find ():
+def gcf_find():
     GCF = 0
-    for i in (range(2,num+1)):
-        if( num% i == 0, num1% i ==0):
-            GCF = 1
-            print()
+    for i in range(1,num+1):
+        if num% i == 0 and num1% i ==0:
+            GCF = i
+            print(GCF)
+gcf_find()
+        
 
 
       
